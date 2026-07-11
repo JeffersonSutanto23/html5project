@@ -1,0 +1,27 @@
+:root {
+  --blue: #3a38ff;
+  --navy: #0d0d34;
+  --pastel-purple: #e5e4ff;
+  --pink: #d861d3;
+  --army: #316762;
+  --yellow: #ffb444;
+  --red: #d86161;
+  --purple: #6261d8;
+  --soft-grey: #e7ebed;
+  --grey: #8c9295;
+  --white: #ffffff;
+  --fwlight: 300;
+  --fwregular: 400;
+  --fwmedium: 500;
+  --fwsemibold: 600;
+  --fwbold: 700;
+  --fwextrabold: 800;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: var(--blue);
+}
