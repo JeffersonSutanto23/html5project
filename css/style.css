@@ -20,8 +20,128 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--soft-grey);
 }
 
 h1 {
   color: var(--blue);
+}
+
+.navbar-brand {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 28px;
+  margin: 0;
+}
+
+.primary-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 32px;
+  margin: 0;
+  text-align: left;
+}
+
+.medium-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 40px;
+  margin: 0;
+}
+
+.small-header {
+  font-weight: var(--fwsemibold);
+  color: var(--navy);
+  font-size: 32px;
+  margin: 0;
+}
+
+.primary-copy {
+  font-weight: var(--fwregular);
+  color: var(--black);
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.btn-primary {
+  padding: 12px 20px 12px 20px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: var(--fwsemibold);
+  border: 0;
+}
+
+.btn-primary:hover {
+  background: var(--navy) !important;
+  color: var(--white);
+}
+
+.btn-secondary {
+  padding: 12px 20px 12px 20px;
+  background: var(--grey);
+  color: var(--navy);
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: var(--fwsemibold);
+  border: 0;
+}
+
+.btn-secondary:hover {
+  background: var(--grey);
+  color: var(--white) !important ;
+}
+
+.navbar-nav .nav-item a {
+  color: var(--navy);
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+  padding: 0 20px 0 20px;
+  font-weight: var(--fwregular);
+}
+
+.navbar-nav .nav-item a:hover {
+  color: var(--blue);
+  transition: color 0.3s ease;
+  font-weight: var(--fwsemibold);
+}
+
+.cashier-navbar {
+  background-color: var(--white);
+  margin: 30px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0px;
+}
+
+.header .badge p {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: var(--fwbold);
+}
+
+.header h1 {
+  color: var(--black);
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: var(--fwsemibold);
+}
+
+.header p {
+  color: var(--grey);
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: var(--fwregular);
 }
