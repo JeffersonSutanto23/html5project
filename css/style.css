@@ -132,6 +132,41 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 48px;
   font-weight: var(--fwextrabold);
+<<<<<<< HEAD
+=======
+}
+
+.secondary-header h2 {
+  margin-bottom: 10px;
+  margin-top: 70px;
+  text-align: center;
+  color: var(--navy);
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: var(--fwbold);
+}
+
+.third-header h3 {
+  margin-bottom: 10px;
+  margin-top: 70px;
+  text-align: left;
+  color: var(--navy);
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: var(--fwbold);
+}
+
+.third-header h4 {
+  margin-bottom: 10px;
+  margin-top: 70px;
+  text-align: left;
+  color: var(--navy);
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: var(--fwbold);
+>>>>>>> 5bccec928ffa3223715de006b3db3d175cf3282f
 }
 
 .secondary-header h2 {
@@ -209,6 +244,7 @@ h1 {
   text-align: right;
 }
 
+<<<<<<< HEAD
 .final-header p {
   margin-bottom: 30px;
   text-align: center;
@@ -219,6 +255,8 @@ h1 {
   font-weight: var(--fwregular);
 }
 
+=======
+>>>>>>> 5bccec928ffa3223715de006b3db3d175cf3282f
 .header .badge p {
   background-color: var(--pastel-purple);
   color: var(--black);
@@ -292,6 +330,7 @@ h1 {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .text-button {
   text-decoration: none;
   color: blue;
@@ -340,6 +379,23 @@ h1 {
 .third-header .features-wrapper .icon img {
   width: 60px;
   height: 60px;
+=======
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.third-header .features-wrapper .big-featue-card h3 {
+  margin-bottom: 10px;
+  text-align: left;
+  color: var(--navy);
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: var(--fwbold);
+>>>>>>> 5bccec928ffa3223715de006b3db3d175cf3282f
 }
 @keyframes moveSlidesToLeft {
   0% {
@@ -358,6 +414,7 @@ h1 {
     transform: translateX(100%);
   }
 }
+<<<<<<< HEAD
 
 .form-control {
   border-radius: 50px;
@@ -381,3 +438,5 @@ h1 {
 .text-area .form-control {
   border-radius: 16px;
 }
+=======
+>>>>>>> 5bccec928ffa3223715de006b3db3d175cf3282f
