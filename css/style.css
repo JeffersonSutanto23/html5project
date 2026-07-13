@@ -7,9 +7,11 @@
   --yellow: #ffb444;
   --red: #d86161;
   --purple: #6261d8;
-  --soft-grey: #e7ebed;
+  --soft-grey: #f9fbfc;
   --grey: #8c9295;
+  --darkgrey2: #e7ebed;
   --white: #ffffff;
+  --black: #000000;
   --fwlight: 300;
   --fwregular: 400;
   --fwmedium: 500;
@@ -34,37 +36,8 @@ h1 {
   margin: 0;
 }
 
-.primary-header {
-  font-weight: var(--fwbold);
-  color: var(--navy);
-  font-size: 32px;
-  margin: 0;
-  text-align: left;
-}
-
-.medium-header {
-  font-weight: var(--fwbold);
-  color: var(--navy);
-  font-size: 40px;
-  margin: 0;
-}
-
-.small-header {
-  font-weight: var(--fwsemibold);
-  color: var(--navy);
-  font-size: 32px;
-  margin: 0;
-}
-
-.primary-copy {
-  font-weight: var(--fwregular);
-  color: var(--black);
-  font-size: 16px;
-  line-height: 28px;
-  margin: 0;
-}
-
 .btn-primary {
+  margin-left: 10px;
   padding: 12px 20px 12px 20px;
   background-color: var(--blue);
   color: var(--white);
@@ -80,6 +53,17 @@ h1 {
 }
 
 .btn-secondary {
+  margin-left: 10px;
+  padding: 12px 20px 12px 20px;
+  background: var(--grey);
+  color: var(--navy);
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: var(--fwsemibold);
+  border: 0;
+}
+
+.third-header .btn-secondary {
   padding: 12px 20px 12px 20px;
   background: var(--grey);
   color: var(--navy);
@@ -112,7 +96,12 @@ h1 {
 
 .cashier-navbar {
   background-color: var(--white);
-  margin: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0;
+  margin-bottom: 70px;
   border-bottom-left-radius: 26px;
   border-bottom-right-radius: 26px;
 }
@@ -121,27 +110,156 @@ h1 {
   --bs-navbar-padding-y: 0px;
 }
 
-.header .badge p {
-  background-color: var(--blue);
-  color: var(--white);
-  padding: 5px 10px;
-  border-radius: 50px;
-  font-size: 16px;
-  font-weight: var(--fwbold);
-}
-
 .header h1 {
   color: var(--black);
   padding: 5px 10px;
   font-family: "Poppins", sans-serif;
   font-size: 48px;
-  font-weight: var(--fwsemibold);
+  font-weight: var(--fwextrabold);
+}
+
+.secondary-header h2 {
+  margin-bottom: 10px;
+  margin-top: 70px;
+  text-align: center;
+  color: var(--navy);
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: var(--fwbold);
+}
+
+.third-header h3 {
+  margin-bottom: 10px;
+  margin-top: 70px;
+  text-align: left;
+  color: var(--navy);
+  padding: 5px 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: var(--fwbold);
 }
 
 .header p {
   color: var(--grey);
-  padding: 5px 10px;
+  padding: 5px 15px;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: var(--fwregular);
+}
+
+.secondary-header p {
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--grey);
+  padding-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: var(--fwregular);
+}
+
+.third-header p {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  text-align: left;
+  color: var(--grey);
+  padding-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: var(--fwregular);
+}
+
+.third-header a {
+  text-align: right;
+}
+
+.header .badge p {
+  background-color: var(--pastel-purple);
+  color: var(--black);
+  padding: 10px 10px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: var(--fwsemibold);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.header .badge img {
+  width: 16px;
+  height: 16px;
+}
+
+.header .badge {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 20px;
+}
+
+.card-brand {
+  width: 227px;
+  height: 110px;
+  border-radius: 16px;
+  background: var(--darkgrey2);
+}
+
+.card-brand .logo {
+  width: 146px;
+  height: 50px;
+  margin: 30px 41px 30px 40px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  height: 110px;
+  animation: moveSlidesToLeft 10s linear infinite;
+}
+
+.carousel {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 110px;
+  overflow: hidden;
+}
+
+.carousel .card-brand {
+  margin-right: 30px;
+}
+
+.carousel-left .card-brand {
+  margin-right: 30px;
+}
+
+.carousel-wrapper-left {
+  display: flex;
+  height: 110px;
+  animation: moveSlidesToRight 10s linear infinite;
+}
+
+.carousel-left {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 110px;
+  overflow: hidden;
+}
+
+@keyframes moveSlidesToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveSlidesToRight {
+  0% {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
 }
